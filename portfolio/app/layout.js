@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
       lang="en"
       className="scroll-smooth"
     >
-      <body className={`${outfit.className} ${ovo.className} antialiased leading-8 overflow-x-hidden`}>{children}</body>
+      <body className={`${outfit.className} ${ovo.className} antialiased leading-8 overflow-x-hidden dark:bg-gray-900 dark:text-white`}>{children}</body>
     </html>
   );
 }

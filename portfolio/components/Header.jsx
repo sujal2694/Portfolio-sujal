@@ -18,13 +18,13 @@ const Header = () => {
                 whileInView={{ y: 0, opacity: 1 }}
                 initial={{ y: -20, opacity: 0 }}
                 transition={{ duration: 0.6, delay: 0.3 }}
-                className='flex items-end gap-2 text-xl md:text-2xl mb-3 font-ovo'>Hi! I'm Sujal Valsur <Image src={assets.hand_icon} alt='' className='w-32' /></motion.h3>
+                className='flex items-end gap-2 text-xl md:text-2xl mb-3 font-ovo'>Hi! I'm Sujal Valsur <Image src={assets.hand_icon} alt='' className='w-28' /></motion.h3>
 
             <motion.h1
                 whileInView={{ y: 0, opacity: 1 }}
                 initial={{ y: -30, opacity: 0 }}
                 transition={{ duration: 0.8, delay: 0.5 }}
-                className='text-3xl sm:text-6xl lg:text-[66px] font-ovo'>full stack web developer based in bhavnagar.</motion.h1>
+                className='text-3xl sm:text-6xl lg:text-[66px] font-ovo'>Full stack web developer based in Bhavnagar.</motion.h1>
 
             <motion.p
                 whileInView={{opacity: 1 }}
